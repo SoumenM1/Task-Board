@@ -1,8 +1,6 @@
 # Task-Board
 
 
-# Project Name
-
 ## Description
 This project is a simple task management application with a backend implemented in Node.js using Express and a frontend implemented in React. It allows users to create task lists, add tasks to those lists, and drag tasks between lists.
 
