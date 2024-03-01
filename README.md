@@ -20,16 +20,10 @@ This project is a simple task management application with a backend implemented 
 4. Configure the PostgreSQL database:
    - Make sure PostgreSQL is installed and running on your system.
    - Create a new database with the name `task_manager`.
-   - Create a user with the username `admin` and password `admin`, and grant it access to the `task_manager` database.
-5. Set environment variables:
-   - Create a `.env` file in the backend directory.
-   - Add the following variables to the `.env` file:
-     ```
-     DATABASE_URL=postgresql://admin:admin@localhost:5432/task_manager
-     PORT=4000
-     ```
+   - defult a user with the username `admin` and password `admin`, and grant it access to the `task_manager` database.
 6. Run the database migrations to create the necessary tables: `npx sequelize-cli db:migrate`
 7. Start the backend server: `npm start`
+8. Access the application in your Api at `http://localhost:4000`
 
 ### Frontend
 1. Navigate to the frontend directory: `cd frontend`
@@ -53,4 +47,4 @@ This project is a simple task management application with a backend implemented 
 Contributions are welcome! Feel free to submit issues and pull requests.
 
 ## License
-[MIT License](LICENSE)
+
