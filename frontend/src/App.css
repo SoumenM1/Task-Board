@@ -1,0 +1,162 @@
+/* In your CSS file */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f2eded;
+  color: #131010;
+  padding: 1rem;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+/* In your CSS file */
+.task {
+  background-color: #f9f9f9;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+/* TaskList.css */
+.task-list {
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.task-list-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.task input[type="checkbox"] {
+  margin-right: 0.5rem;
+  height: 25px;
+  width: 25px;
+}
+
+.task-text {
+  margin-right: 0.5rem;
+}
+
+/* In your CSS file */
+.create-list {
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* LoginPage.css */
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-box {
+  background-color: #9a8e8e;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 1rem;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+.plus {
+  font-size: 2em; /* Increase font size */
+  display: block; /* Make the button a block element */
+  margin: 0 auto; /* Center horizontally */
+  width: 50px; /* Set a fixed width */
+  height: 50px; /* Set a fixed height */
+  line-height: 50px; /* Center vertically */
+  text-align: center; /* Center text horizontally */
+  border: none; /* Remove border */
+  color: white; /* Button text color */
+  cursor: pointer; /* Show pointer on hover */
+}
+
+#plus:hover {
+  background-color: #0056b3; /* Change background color on hover */
+}
+/* .lists-container {
+  overflow-x: auto; 
+  white-space: nowrap; 
+}  */
+
+
+.lists-container > div {
+  display: inline-block; 
+} 
